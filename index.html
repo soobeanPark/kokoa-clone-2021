@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+  <body>
+    <div class="status-bar">
+      <div class="status-bar__column">
+        <span>No Service</span>
+        <i class="fas fa-wifi"></i>
+      </div>
+      <div class="status-bar__column">
+        <span>12:00</span>
+      </div>
+      <div class="status-bar__column">
+        <span>110%</span>
+        <i class="fas fa-battery-full"></i>
+        <i class="fas fa-bolt"></i>
+      </div>
+    </div>
+
+    <header class="hello-header">
+      <h1 class="welcome-header__title">Welecome to Kokoa Clone</h1>
+      <p class="welcome-header__text">
+        If you have kokoa account, Login with your email or phone number
+      </p>
+    </header>
+
+    <form id="login-form">
+      <input required placeholder="Email or Phone number" />
+      <input required placeholder="Password" type="password" />
+      <input
+        type="submit"
+        value="Log in"
+        onclick="location.href='friends.html'"
+      />
+      <a href="#">Find Kakao account or password</a>
+    </form>
+
+    <div id="tooBigScreen">
+      <span>Your Screen is too Biggg ㅜㅠ</span>
+    </div>
+
+    <script
+      src="https://kit.fontawesome.com/6478f529f2.js"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>

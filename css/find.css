@@ -1,0 +1,138 @@
+.find-icons {
+  display: flex;
+  justify-content: space-between;
+}
+
+.find-icons__icon {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.find-icons__icon i {
+  font-size: 35px;
+  margin-bottom: 15px;
+}
+
+.recommended-firends {
+  margin: 0px var(--horizontal_space);
+  border-top: var(--line);
+  border-bottom: var(--line);
+  padding-top: 10px;
+}
+
+.recommended-firends__text {
+  color: var(--gray_color);
+}
+
+.recommended-firends__title {
+  font-size: 13px;
+}
+
+.recommended-firends__subtitle {
+  padding: 100px 0px;
+  text-align: center;
+}
+
+.open-chat {
+  margin: 0px var(--horizontal_space);
+  padding-top: 10px;
+}
+
+.open-chat__title {
+  color: var(--gray_color);
+  font-size: 13px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.open-chat__column {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding-top: 10px;
+  position: relative;
+}
+
+.open-chat__column:first-child div img {
+  width: 15px;
+  height: 15px;
+  border-radius: 3px;
+  margin-right: 5px;
+}
+
+.open-chat__column__divide {
+  width: 1px;
+  height: 10px;
+  background-color: var(--gray_color);
+}
+
+.open-chat__column__members {
+  display: flex;
+  align-items: center;
+  color: var(--gray_color);
+}
+
+.open-chat__column__title,
+.open-chat__column__subtitle {
+  margin-bottom: 5px;
+}
+
+.open-chat__column__divide {
+  margin: 0px 5px;
+}
+
+.open-chat__column__subtitle {
+  color: var(--gray_color);
+}
+
+.open-chat__active {
+  color: violet;
+}
+
+.open-chat__contents {
+  display: flex;
+  justify-content: space-between;
+}
+
+.open-chat__img2 {
+  width: 90px;
+  height: 90px;
+  border-radius: 10px;
+}
+
+.open-chat__heart {
+  width: 50px;
+  height: 20px;
+  background-color: black;
+  color: white;
+  opacity: 80%;
+  font-size: 13px;
+  border-radius: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+  top: 75px;
+  left: 35px;
+}
+
+.open-chat__column div i.fa-heart {
+  margin-right: 5px;
+}
+
+@keyframes heartBeat {
+  from {
+    color: white;
+    transform: none;
+  }
+  to {
+    color: tomato;
+    transform: scale(1.5);
+  }
+}
+
+.open-chat__heart:hover i {
+  will-change: transform;
+  animation: heartBeat 1s linear infinite;
+}

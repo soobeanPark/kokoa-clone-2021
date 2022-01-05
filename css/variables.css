@@ -1,0 +1,6 @@
+:root {
+  --orange: darkorange;
+  --horizontal_space: 25px;
+  --line: 2px solid rgba(0, 0, 0, 0.3);
+  --gray_color: rgba(0, 0, 0, 0.3);
+}

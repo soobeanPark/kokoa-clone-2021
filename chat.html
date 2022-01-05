@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+  <body id="chat-screen">
+    <div class="status-bar">
+      <div class="status-bar__column">
+        <span>No Service</span>
+        <i class="fas fa-wifi"></i>
+      </div>
+      <div class="status-bar__column">
+        <span>12:00</span>
+      </div>
+      <div class="status-bar__column">
+        <span>110%</span>
+        <i class="fas fa-battery-full"></i>
+        <i class="fas fa-bolt"></i>
+      </div>
+    </div>
+
+    <header class="alt-header__screen">
+      <div class="alt-header__column">
+        <a href="chats.html">
+          <i class="fas fa-chevron-left fa-2x"></i>
+        </a>
+      </div>
+      <div class="alt-header__column">
+        <span class="alt-header__title">Quooka Talk</span>
+      </div>
+      <div class="alt-header__column">
+        <span><i class="fas fa-search fa-2x"></i></span>
+        <span><i class="fas fa-bars fa-2x"></i></span>
+      </div>
+    </header>
+
+    <div class="main-screen chat-main">
+      <div class="chat__timestamp">Saturday, Oct 23, 2021</div>
+      <div class="message-row">
+        <img class="message__img" src="Quokka2.png" />
+        <div class="message__contents">
+          <span class="message__talker">Quooka Talk</span>
+          <div class="message__info">
+            <div class="message__bubble">Hi!</div>
+            <span class="message__time">16:58</span>
+          </div>
+        </div>
+      </div>
+
+      <div class="message-row message-row--own">
+        <div class="message__contents">
+          <div class="message__info">
+            <div class="message__bubble">Hi! nice to meet you~</div>
+            <span class="message__time">16:58</span>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <form class="chat-reply">
+      <div class="chat-reply__column">
+        <i class="far fa-plus-square fa-lg"></i>
+      </div>
+      <div class="chat-reply__column">
+        <input
+          class="chat-reply__column__input"
+          placeholder="Write a message.."
+        />
+        <i class="far fa-smile fa-lg"></i>
+        <button><i class="fas fa-arrow-up fa-lg"></i></button>
+      </div>
+    </form>
+
+    <div id="tooBigScreen">
+      <span>Your Screen is too Biggg ㅜㅠ</span>
+    </div>
+
+    <script
+      src="https://kit.fontawesome.com/6478f529f2.js"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
